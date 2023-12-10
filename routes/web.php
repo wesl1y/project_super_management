@@ -19,6 +19,9 @@ Route::get("/",[\App\http\Controllers\PrincipalController::class, 'principal'])-
 Route::get("/contato",[\App\http\Controllers\ContatoController::class, 'contato'])
 ->name("site.contato");
 
+Route::post("/contato",[\App\http\Controllers\ContatoController::class, 'contato'])
+->name("site.contato");
+
 Route::get("/sobre-nos",[\App\http\Controllers\SobreNosController::class, 'sobreNos'])
 ->name("site.sobrenos");
 
