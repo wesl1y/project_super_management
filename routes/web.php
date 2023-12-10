@@ -20,7 +20,7 @@ Route::get("/contato",[\App\http\Controllers\ContatoController::class, 'contato'
 ->name("site.contato");
 
 Route::get("/sobre-nos",[\App\http\Controllers\SobreNosController::class, 'sobreNos'])
-->name("site.sobre-nos");
+->name("site.sobrenos");
 
 Route::get("/login", function(){echo "Login";}) ->name("site.login");
 

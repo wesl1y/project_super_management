@@ -14,4 +14,10 @@
     // }
 @endphp
 
-@dd($fornecedor)
+
+
+fornecedor: {{ $fornecedor[0]["nome"] }}
+<br>
+Status: {{ $fornecedor[0]["status"] }}
+<br>
+
